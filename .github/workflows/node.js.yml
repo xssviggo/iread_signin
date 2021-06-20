@@ -25,6 +25,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: |
+        sudo apt install nodejs npm
         sudo npm i
         sudo node index
 

@@ -25,7 +25,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: |
-        ls
-        npm i
-        node index
+        sudo npm i
+        sudo node index
 

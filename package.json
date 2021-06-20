@@ -16,4 +16,7 @@
   },
   "devDependencies": {},
   "description": ""
+},
+{
+  "private": true
 }

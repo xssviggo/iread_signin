@@ -1,4 +1,4 @@
-let account_id='';//请在第一次运行后，在这里输入你的account_id，就可以跳过获取验证码这一步了
+let account_id='${secrets.ACCOUNT_ID}';//请在第一次运行后，在这里输入你的account_id，就可以跳过获取验证码这一步了
 
 (async()=>{
     const signin=require('./lib/signin');

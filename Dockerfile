@@ -1,6 +1,6 @@
-FROM node:alpine3.13
+FROM node:12-alpine
 
 WORKDIR /usr/src/app
-
-COPY . ./
+COPY . .
+RUN npm ci
 CMD [ "node", "index.js" ]
